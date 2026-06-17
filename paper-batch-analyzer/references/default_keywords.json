@@ -1,0 +1,40 @@
+{
+  "description": "Default keyword categories for paper classification. Edit to match your research domain.",
+  "categories": {
+    "瓦斯抽采": ["瓦斯", "抽采", "抽放", "浓度", "流量", "封孔", "钻孔", "煤层气", "透气性"],
+    "钻具钻探": ["钻杆", "钻头", "钻具", "钻进", "钻孔", "刻槽", "扩孔", "套筒", "扳手", "锚杆", "锚索"],
+    "封孔材料": ["封孔", "材料", "膨胀", "水泥", "硅酸钠", "富水", "自膨胀", "护孔", "花管", "XRD", "FTIR", "SEM"],
+    "通风安全": ["通风", "风井", "泄爆", "消波", "防喷", "降阻", "阻尼", "防突", "除尘"],
+    "管路装置": ["管路", "节流", "阀体", "控制", "调控", "装置", "预警", "监测", "传感器"],
+    "实验研究": ["实验", "试验", "模拟", "仿真", "数值", "模型", "测试", "CFD", "有限元"]
+  },
+  "software_patterns": [
+    { "name": "ANSYS Fluent", "patterns": ["fluent", "ansys fluent", "FLUENT"] },
+    { "name": "ANSYS Workbench", "patterns": ["workbench", "ansys workbench"] },
+    { "name": "COMSOL Multiphysics", "patterns": ["comsol", "COMSOL"] },
+    { "name": "ABAQUS", "patterns": ["abaqus", "ABAQUS"] },
+    { "name": "MATLAB", "patterns": ["matlab", "MATLAB"] },
+    { "name": "Python", "patterns": ["python", "Python"] },
+    { "name": "Origin", "patterns": ["origin", "Origin"] },
+    { "name": "AutoCAD", "patterns": ["autocad", "AutoCAD", "CAD"] },
+    { "name": "SolidWorks", "patterns": ["solidworks", "SolidWorks"] },
+    { "name": "Fluent Meshing", "patterns": ["meshing", "网格划分"] },
+    { "name": "Tecplot", "patterns": ["tecplot", "Tecplot"] },
+    { "name": "CFD-Post", "patterns": ["cfd-post", "CFX"] },
+    { "name": "SPSS", "patterns": ["spss", "SPSS"] },
+    { "name": "Design-Expert", "patterns": ["design-expert", "design expert"] },
+    { "name": "JADE", "patterns": ["jade", "JADE", "MDI Jade"] }
+  ],
+  "interdisciplinary_analogies": [
+    { "term": "瓦斯抽采", "explanation": "从煤层中抽取瓦斯气体，防止矿井爆炸", "cs_analogy": "类似数据抽取ETL" },
+    { "term": "封孔", "explanation": "封闭钻孔防止气体泄漏", "cs_analogy": "类似端口封堵/密封" },
+    { "term": "钻杆/钻具", "explanation": "矿井打孔用的工具", "cs_analogy": "类似硬件IO设备" },
+    { "term": "护孔", "explanation": "保护钻孔壁不坍塌", "cs_analogy": "类似容器/防护机制" },
+    { "term": "泄爆", "explanation": "引导爆炸能量安全释放", "cs_analogy": "类似熔断/降级机制" },
+    { "term": "花管", "explanation": "带孔的管道，用于瓦斯采集", "cs_analogy": "类似多孔过滤器" },
+    { "term": "节流装置", "explanation": "控制气体流量的装置", "cs_analogy": "类似流量控制/throttle" },
+    { "term": "XRD/FTIR", "explanation": "X射线衍射/红外光谱，分析材料成分", "cs_analogy": "类似数据表征/特征提取" },
+    { "term": "数值模拟", "explanation": "用计算机模拟物理过程", "cs_analogy": "就是CS里的simulation" },
+    { "term": "CFD", "explanation": "计算流体动力学，模拟气体/液体流动", "cs_analogy": "类似物理引擎/图形渲染管线" }
+  ]
+}
